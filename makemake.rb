@@ -1,0 +1,20 @@
+# makemake formula
+
+class Makemake < Formula
+
+	homepage "https://github.com/Julow/makemake"
+
+	url "https://github.com/Julow/makemake.git"
+	head "https://github.com/Julow/makemake.git"
+	sha256 ""
+
+	def install
+		bin.install "makemake.py" => "makemake"
+	end
+
+	test do
+		system "#{bin}/makemake", "--test"
+		assert File.exist? "Makefile"
+	end
+
+end
