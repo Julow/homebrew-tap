@@ -7,6 +7,7 @@ class Makemake < Formula
 	url "https://github.com/Julow/makemake.git"
 	head "https://github.com/Julow/makemake.git"
 	sha256 ""
+	version "1.0"
 
 	def install
 		bin.install "makemake.py" => "makemake"
