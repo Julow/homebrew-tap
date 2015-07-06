@@ -8,7 +8,7 @@ class J < Formula
 	head "https://github.com/Julow/J.git"
 	sha256 ""
 
-	version "0.1.0"
+	version "0.1.1"
 
 	def install
 		system "make", "-l", "0"
