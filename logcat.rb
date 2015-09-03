@@ -8,7 +8,7 @@ class Logcat < Formula
 	head "https://github.com/Julow/logcat.py.git"
 	sha256 ""
 
-	version "0.1.0"
+	version "0.1.1"
 
 	def install
 		bin.install "logcat.py" => "logcat"
