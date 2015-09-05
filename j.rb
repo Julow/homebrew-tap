@@ -11,7 +11,7 @@ class J < Formula
 	version "0.1.2"
 
 	def install
-		system "make"
+		system "make", "-j1"
 		bin.install "j"
 	end
 
