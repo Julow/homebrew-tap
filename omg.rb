@@ -8,7 +8,7 @@ class Omg < Formula
 	head "https://github.com/Julow/oh-my-generator.git"
 	sha256 ""
 
-	version "0.1.0"
+	version "0.1.1"
 
 	def install
 		ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python2.7/site-packages"
