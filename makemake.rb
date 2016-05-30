@@ -8,7 +8,7 @@ class Makemake < Formula
 	head "https://github.com/Julow/makemake.git"
 	sha256 ""
 
-	version "3.1.8"
+	version "3.2.0"
 
 	def install
 		bin.install "old/makemake.py" => "makemake"
